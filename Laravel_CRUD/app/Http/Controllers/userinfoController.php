@@ -21,7 +21,7 @@ class userinfoController extends Controller
         $userinfo->address =$request->address;
         $userinfo->save();
 
-        return redirect()->route('home');
+        return redirect()->route('manage');
 
     }
     public function userinfomanage(){
